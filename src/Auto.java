@@ -7,6 +7,7 @@ public class Auto extends Veicolo {
         this.numeroPorte = numeroPorte;
     }
 
+
     @Override
     public String Descrizione() {
         return super.Descrizione() + ", numeroPorte: " + numeroPorte;
