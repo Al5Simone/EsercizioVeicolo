@@ -1,5 +1,4 @@
 
-
 void main(){
     Auto a1 = new Auto(2000, "TI 739 GA", 5);
     Auto a2 = new Auto(2010, "HI 612 SU", 2);
