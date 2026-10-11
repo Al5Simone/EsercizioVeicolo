@@ -9,14 +9,12 @@ void main(){
     Moto m2 = new Moto(2010,"MG 924 HJ", 1000);
     Moto m3 = new Moto(2005,"LB 125 FG", 125);
 
-    a1.Descirzione();
-    a2.Descirzione();
-    a3.Descirzione();
+    System.out.println(a1.Descrizione());
+    System.out.println(a2.Descrizione());
+    System.out.println(a3.Descrizione());
 
-    m1.Descirzione();
-    m2.Descirzione();
-    m3.Descirzione();
-
-
+    System.out.println(m1.Descrizione());
+    System.out.println(m2.Descrizione());
+    System.out.println(m3.Descrizione());
 }
 

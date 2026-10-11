@@ -1,4 +1,4 @@
-public class Veicolo {
+public abstract class Veicolo {
 
     protected String targa;
 
@@ -9,8 +9,7 @@ public class Veicolo {
         this.targa = targa;
     }
 
-    public String Descirzione(){
-        return "La macchina ha come targa: " +  targa + " ed è stata immatricolata nel : " + anno ;
+    public String Descrizione() {
+        return "Anno: " + anno + ", Targa: " + targa;
     }
-
 }
