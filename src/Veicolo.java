@@ -1,7 +1,6 @@
 public abstract class Veicolo {
 
     protected String targa;
-
     protected int anno;
 
     public Veicolo(int anno, String targa) {

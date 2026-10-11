@@ -6,6 +6,7 @@ public class Moto extends  Veicolo{
         super(anno, targa);
         this.cilindrata = cilindrata;
     }
+
     @Override
     public String Descrizione() {
         return super.Descrizione() + ", Cilindrata: " + cilindrata;
